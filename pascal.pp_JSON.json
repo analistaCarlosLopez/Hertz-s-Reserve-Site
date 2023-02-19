@@ -1,0 +1,71 @@
+"Hello": {
+    "var": {
+        "integer":"i",
+        "integer":"j",
+        "char":"jose4",
+        "char":"jose5",
+        "boolean":"jose7",
+        "boolean":"jose8",
+        "integer":"entero1",
+        "integer":"entero2",
+        "integer":"enteroguanil",
+    },
+    "write": "Hello World",
+    "assing": {
+        "var": "i"
+        "value": "4"
+    }
+    "assing": {
+        "var": "jose5"
+        "value": "'h'"
+    }
+    "assing": {
+        "var": "jose4"
+        "value": "'k'"
+    }
+    "assing": {
+        "var": "jose7"
+        "value": "true"
+    }
+    "assing": {
+        "var": "enteroguanil"
+        "value": "5"
+    }
+    "assing": {
+        "var": "i"
+        "value": "j"
+    }
+    "assing": {
+        "var": "jose4"
+        "value": "jose5"
+    }
+    "assing": {
+        "var": "enteroguanil"
+        "value": "i"
+    }
+    "assing": {
+        "var": "i"
+        "value": "6"
+    }
+    "read": "integer",
+    "for": {
+        "exp": "i = 0",
+        "exp": "i < 10",
+        "exp": "i++",
+        "write": "hola jose antonio",
+    },
+    "while" {
+        "exp": "(i<10)"
+        "write": "entrando",
+        "for": {
+            "exp": "i = 0",
+            "exp": "i < 10",
+            "exp": "i++",
+            "write": "hola jose antonio",
+            "if": {
+                "exp": "(jose5<3)",
+                "write": "adios jose antonio",
+            }
+        },
+    }
+}

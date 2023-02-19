@@ -1,0 +1,80 @@
+<Hello>
+    <var>
+        <integer>i</integer>
+        <integer>j</integer>
+        <char>jose4</char>
+        <char>jose5</char>
+        <boolean>jose7</boolean>
+        <boolean>jose8</boolean>
+        <integer>entero1</integer>
+        <integer>entero2</integer>
+        <integer>enteroguanil</integer>
+    </var>
+    <write>"Hello World"</write>
+    <assing>
+        <var>i</var>
+        <value>'h'</value>
+    </assing>
+    <assing>
+        <var>jose4</var>
+        <value>4+4*(4+2)/2</value>
+    </assing>
+    <assing>
+        <var>jose7</var>
+        <value>true</value>
+    </assing>
+    <assing>
+        <var>enteroguanil</var>
+        <value>true</value>
+    </assing>
+    <assing>
+        <var>i</var>
+        <value>j</value>
+    </assing>
+    <assing>
+        <var>jose4</var>
+        <value>jose5</value>
+    </assing>
+    <assing>
+        <var>enteroguanil</var>
+        <value>jose7</value>
+    </assing>
+    <assing>
+        <var>i</var>
+        <value>6</value>
+    </assing>
+    <read>integer</read>
+    <for>
+        <exp>i = 0</exp>
+        <exp>i < 10</exp>
+        <exp>i++</exp>
+        <write>"hola jose antonio"</write>
+    </for>
+    <while>
+        <exp>(i<10)</exp>
+        <write>"entrando"</write>
+        <for>
+            <exp>i = 0</exp>
+            <exp>i < 10</exp>
+            <exp>i++</exp>
+            <write>"hola jose antonio"</write>
+            <if>
+                <exp>(jose5+'h')</exp>
+                <write>"adios jose antonio"</write>
+            </if>
+            <while>
+                <exp>(i<j)</exp>
+                <write>"hola Ing."</write>
+                <assing>
+                    <var>g</var>
+                    <value>a</value>
+                </assing>
+                <for>
+                    <exp>i = 0</exp>
+                    <exp>i < null</exp>
+                    <exp>i++</exp>
+                </for>
+            </while>
+        </for>
+    </while>
+</Hello>
